@@ -1,0 +1,20 @@
+# The Git repository is assumed to be rooted at
+# NESmaker_4_0_11_Platformula (i.e., .git directory is
+# at NESmaker_4_0_11_Platformula/.git) and this .gitignore
+# is thus at NESmaker_4_0_11_Platformula/.gitignore
+# -------------------------------------------------------------
+
+Emulator/**
+Flasher/**
+help/**
+*.dll
+*.exe
+
+# Definitely want to track:
+# GraphicAssets/**
+# Projects/**
+
+# Probably want to track:
+# Modules/**
+# BetaAssets/**
+# GameEngineData/** (probably overkill, but gets us the scripts)
