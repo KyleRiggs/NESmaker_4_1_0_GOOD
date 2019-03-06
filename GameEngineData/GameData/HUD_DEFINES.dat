@@ -1,11 +1,11 @@
 ;; *************** HUD_DEFINES.dat ***************
-;; HUD defines export. Wednesday, March 6, 2019 12:49:31 PM
+;; HUD defines export. Wednesday, March 6, 2019 2:53:20 PM
 
-CHECK_SPRITE_ZERO = $00
-SPRITE_ZERO_INDEX = $00
-SPRITE_ZERO_HBLANK = $00
-SPRITE_ZERO_X = $00
-SPRITE_ZERO_Y = $00
+CHECK_SPRITE_ZERO = $01
+SPRITE_ZERO_INDEX = $7f
+SPRITE_ZERO_HBLANK = $01
+SPRITE_ZERO_X = $f6
+SPRITE_ZERO_Y = $1e
 
 HUD_LOAD = $00
 

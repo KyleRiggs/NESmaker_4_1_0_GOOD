@@ -1,20 +1,20 @@
-;; Collision data export. Wednesday, March 6, 2019 12:49:27 PM
+;; Collision data export. Wednesday, March 6, 2019 2:53:15 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x00
 
 ;; Collision:
 .db #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001
+.db #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001
+.db #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001
 .db #%00010001, #%00010000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000001, #%00010001
-.db #%00010001, #%00010000, #%00000000, #%00000110, #%00000000, #%00000000, #%00000001, #%00010001
-.db #%00010001, #%00010000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000001, #%00010001
-.db #%00010001, #%00010000, #%00000000, #%00000000, #%00000000, #%00000000, #%00010001, #%00010001
+.db #%00010001, #%00010001, #%00000000, #%00000110, #%00000000, #%00000000, #%00010001, #%00010001
+.db #%00010001, #%00010001, #%00010000, #%00000000, #%00000000, #%00000001, #%00010001, #%00010001
 .db #%00010001, #%00010001, #%00010001, #%00010111, #%01110001, #%00010001, #%00010001, #%00010001
 .db #%00000001, #%00010001, #%00010001, #%00010111, #%01110001, #%00010001, #%00010001, #%00010001
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000001
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00010000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00010001, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00010001, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000001
+.db #%00000000, #%00010001, #%00010001, #%00000000, #%00000000, #%00010001, #%00010001, #%00000000
+.db #%00000000, #%00000000, #%00010001, #%00000000, #%00000000, #%00010001, #%00010000, #%00000000
+.db #%00010000, #%00000000, #%00000001, #%00010000, #%00010001, #%00010000, #%00000000, #%00000000
+.db #%00010000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000001
 .db #%00010001, #%00010000, #%00000000, #%00000000, #%00000000, #%00000000, #%00010001, #%00010001
 .db #%00010001, #%00010001, #%00010000, #%00000000, #%00000000, #%00010001, #%00010001, #%00010001
 .db #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001
@@ -35,7 +35,7 @@ Screen_Over_01_info:
 ;; Byte 7: Path Tile mask
 	.db #$f0
 ;; Byte 8: What screen does a portal tile on this screen warp to? 
-	.db #$10
+	.db #$01
 ;; Byte 9: Y and X if player comes through a portal 
 	.db #$00
 ;; Byte 10: (DayMonsterBank/NightMonsterBank/DayTriggerMonsterBank/NightTriggerMonsterBank/SongIndex(4bits) )
@@ -43,11 +43,11 @@ Screen_Over_01_info:
 ;; Byte 11: Using this for needed bits. (BIT 0 = warp to underworld if true.)(xxxx0123) 0=showTextOnLoad, 1=underground,2=animated,3=warp 
 	.db #$01
 ;; Byte 12: Monster 1 Origin Day Normal (yyyyxxxx)
-	.db #$b4
+	.db #$86
 ;; Byte 13: Monster 2 Origin Day Normal (yyyyxxxx)
-	.db #$8a
+	.db #$96
 ;; Byte 14: Monster 3 Origin Day Normal (yyyyxxxx)
-	.db #$00
+	.db #$89
 ;; Byte 15: Monster 1 Origin Night Normal (yyyyxxxx)
 	.db #$00
 ;; Byte 16: Monster 2 Origin Night Normal (yyyyxxxx)
@@ -91,7 +91,7 @@ Screen_Over_01_info:
 ;; Byte 38: StringPointer Night Triggered 
 	.db #$00
 ;; Byte 39: Monster 4 Origin Day Normal (yyyyxxxx)
-	.db #$00
+	.db #$99
 ;; Byte 40: Monster 4 Origin Night Normal (yyyyxxxx)
 	.db #$00
 ;; Byte 41: Monster 4 Origin Day Triggered (yyyyxxxx)
@@ -103,9 +103,9 @@ Screen_Over_01_info:
 ;; Byte 44: Monster 2 Day ID
 	.db #$10
 ;; Byte 45: Monster 3 Day ID
-	.db #$00
+	.db #$10
 ;; Byte 46: Monster 4 Day ID
-	.db #$00
+	.db #$10
 ;; Byte 47: Monster 1 Day Triggered ID
 	.db #$00
 ;; Byte 48: Monster 2 Day Triggered ID
@@ -141,7 +141,7 @@ Screen_Over_01_info:
 ;; Byte 63: All screen bits (Respawn/DayNight/Paths/Boss/Dark/Underground/Animated/ShowText)
 	.db #$00
 ;; Byte 64: Monster State Day (44332211) (00=place/01=random/10=edge/11=disabled)
-	.db #$f0
+	.db #$00
 ;; Byte 65: Monster State Night (44332211) (00=place/01=random/10=edge/11=disabled)
 	.db #$ff
 ;; Byte 66: Monster State Day Triggered (44332211) (00=place/01=random/10=edge/11=disabled)

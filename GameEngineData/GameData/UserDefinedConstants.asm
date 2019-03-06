@@ -1,5 +1,5 @@
 ;; *************** UserDefinedConstants.asm ***************
-;; UserDefinedConstants export. Wednesday, March 6, 2019 12:49:31 PM
+;; UserDefinedConstants export. Wednesday, March 6, 2019 2:53:20 PM
 
 OBJ_PLAYER_DEATH  = $08
 OBJ_MONSTER_DEATH  = $09

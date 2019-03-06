@@ -1,12 +1,12 @@
 ;; Monster: Player
 GameItem0_EndAction:		;;EndAnimationType / EndActionType
-	.db #$00, #$00, #$33, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Melee
 GameItem1_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: crossProjSrc
+;; Monster: Projectile Source
 GameItem2_EndAction:		;;EndAnimationType / EndActionType
 	.db #$30, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 

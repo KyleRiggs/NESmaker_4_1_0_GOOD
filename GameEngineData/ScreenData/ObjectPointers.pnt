@@ -2,7 +2,7 @@
 ;;;; 0 GameItem: Player
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Player
-;; Animations = 3
+;; Animations = 2
 GameItem0_Lo:
 ;; AnimationType = Idle
 	.db <GameItem0_0, <GameItem0_0
@@ -16,12 +16,6 @@ GameItem0_Lo:
 	.db <GameItem0_7, <GameItem0_0
 	.db <GameItem0_5, <GameItem0_0
 
-;; AnimationType = Attack
-	.db <GameItem0_8, <GameItem0_0
-	.db <GameItem0_10, <GameItem0_0
-	.db <GameItem0_11, <GameItem0_0
-	.db <GameItem0_9, <GameItem0_0
-
 GameItem0_Hi:
 ;; AnimationType = Idle
 	.db >GameItem0_0, >GameItem0_0
@@ -34,12 +28,6 @@ GameItem0_Hi:
 	.db >GameItem0_6, >GameItem0_0
 	.db >GameItem0_7, >GameItem0_0
 	.db >GameItem0_5, >GameItem0_0
-
-;; AnimationType = Attack
-	.db >GameItem0_8, >GameItem0_0
-	.db >GameItem0_10, >GameItem0_0
-	.db >GameItem0_11, >GameItem0_0
-	.db >GameItem0_9, >GameItem0_0
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -63,9 +51,9 @@ GameItem1_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 2 GameItem: crossProjSrc
+;;;; 2 GameItem: Projectile Source
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = crossProjSrc
+;; Monster = Projectile Source
 ;; Animations = 1
 GameItem2_Lo:
 ;; AnimationType = Default

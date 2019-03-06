@@ -1,4 +1,4 @@
-;; Attribute data export. Wednesday, March 6, 2019 12:49:31 PM
+;; Attribute data export. Wednesday, March 6, 2019 2:53:20 PM
 ;; GraphicBankID = 0x00
 ;; Special PaletteID = 0x00
 ATT_StartScreen:
