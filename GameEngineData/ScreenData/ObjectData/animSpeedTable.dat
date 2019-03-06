@@ -10,15 +10,15 @@ GameItem1_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 GameItem2_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Projectile
+;; Monster: crossProj
 GameItem3_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Health Pickup
 GameItem4_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Charge Pickup
+;; Monster: crossPickup
 GameItem5_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
@@ -62,13 +62,13 @@ GameItem14_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 GameItem15_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: spider
 Object0_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: hauntedArmour
 Object1_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object2_animSpeedTable:

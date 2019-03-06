@@ -10,7 +10,7 @@ GameItem1_ActionTypes:		;;ActionTimer / ActionTypeID
 GameItem2_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Projectile
+;; Monster: crossProj
 GameItem3_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
@@ -18,7 +18,7 @@ GameItem3_ActionTypes:		;;ActionTimer / ActionTypeID
 GameItem4_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Charge Pickup
+;; Monster: crossPickup
 GameItem5_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
@@ -62,13 +62,13 @@ GameItem14_ActionTypes:		;;ActionTimer / ActionTypeID
 GameItem15_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: spider
 Object0_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$02, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: hauntedArmour
 Object1_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$02, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object2_ActionTypes:

@@ -77,14 +77,17 @@ GameItem2_0:
 .db #$00, #%00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 3 GameItem: Projectile
+;;;; 3 GameItem: crossProj
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Projectile
+;; Monster = crossProj
 ;; Size = 1 by1
-;; Animation = DefaultAnimation
+;; Animation = spin
 GameItem3_0:
-.db #$1; frame count
-.db #$00, #%00000000
+.db #$4; frame count
+.db #$40, #%00000000
+.db #$40, #%01000000
+.db #$40, #%11000000
+.db #$40, #%10000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 4 GameItem: Health Pickup
@@ -97,14 +100,14 @@ GameItem4_0:
 .db #$00, #%00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 5 GameItem: Charge Pickup
+;;;; 5 GameItem: crossPickup
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Charge Pickup
+;; Monster = crossPickup
 ;; Size = 1 by1
 ;; Animation = DefaultAnimation
 GameItem5_0:
 .db #$1; frame count
-.db #$00, #%00000000
+.db #$40, #%00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 6 GameItem: Key Pickup
@@ -206,5 +209,42 @@ GameItem15_0:
 .db #$1; frame count
 .db #$00, #%00000000
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 0 Monster spider
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = spider
+;; Size = 2 by2
+;; Animation = moveDown
+Object0_0:
+.db #$2; frame count
+.db #$00, #%00000010, #$01, #%00000010, #$10, #%00000010, #$11, #%00000010
+.db #$02, #%00000010, #$03, #%00000010, #$12, #%00000010, #$13, #%00000010
+;; Animation = moveLeft
+Object0_1:
+.db #$2; frame count
+.db #$20, #%00000010, #$21, #%00000010, #$30, #%00000010, #$31, #%00000010
+.db #$22, #%00000010, #$23, #%00000010, #$32, #%00000010, #$33, #%00000010
+;; Animation = moveRight
+Object0_2:
+.db #$2; frame count
+.db #$21, #%01000010, #$20, #%01000010, #$31, #%01000010, #$30, #%01000010
+.db #$23, #%01000010, #$22, #%01000010, #$33, #%01000010, #$32, #%01000010
+;; Animation = moveUp
+Object0_3:
+.db #$2; frame count
+.db #$10, #%10000010, #$11, #%10000010, #$00, #%10000010, #$01, #%10000010
+.db #$12, #%10000010, #$13, #%10000010, #$02, #%10000010, #$03, #%10000010
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 1 Monster hauntedArmour
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = hauntedArmour
+;; Size = 2 by2
+;; Animation = DefaultAnimation
+Object1_0:
+.db #$1; frame count
+.db #$00, #%00000010, #$01, #%00000010, #$10, #%00000010, #$11, #%00000010
+
 Object_total_sprites:
 .db 4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+.db 4,4

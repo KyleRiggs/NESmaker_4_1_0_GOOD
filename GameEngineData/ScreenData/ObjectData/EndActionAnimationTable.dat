@@ -10,7 +10,7 @@ GameItem1_EndAction:		;;EndAnimationType / EndActionType
 GameItem2_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Projectile
+;; Monster: crossProj
 GameItem3_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
@@ -18,7 +18,7 @@ GameItem3_EndAction:		;;EndAnimationType / EndActionType
 GameItem4_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Charge Pickup
+;; Monster: crossPickup
 GameItem5_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
@@ -62,13 +62,13 @@ GameItem14_EndAction:		;;EndAnimationType / EndActionType
 GameItem15_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: spider
 Object0_EndAction:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$02, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: hauntedArmour
 Object1_EndAction:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$02, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object2_EndAction:

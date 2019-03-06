@@ -159,14 +159,14 @@ GameItem2_0:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 3 GameItem: Projectile
+;;;; 3 GameItem: crossProj
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Projectile
+;; Monster = crossProj
 ;; Size = 1 by1
-;; Animation = DefaultAnimation
+;; Animation = spin
 GameItem3_0:
-.db #$00
-.db #%00000000
+.db #$40, #$40, #$40, #$40
+.db #%00000000, #%01000000, #%11000000, #%10000000
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -181,13 +181,13 @@ GameItem4_0:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 5 GameItem: Charge Pickup
+;;;; 5 GameItem: crossPickup
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Charge Pickup
+;; Monster = crossPickup
 ;; Size = 1 by1
 ;; Animation = DefaultAnimation
 GameItem5_0:
-.db #$00
+.db #$40
 .db #%00000000
 
 
@@ -299,5 +299,72 @@ GameItem14_0:
 GameItem15_0:
 .db #$00
 .db #%00000000
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 0 Monster spider
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = spider
+;; Size = 2 by2
+;; Animation = moveDown
+Object0_0:
+.db #$00, #$02
+.db #%00000010, #%00000010
+.db #$01, #$03
+.db #%00000010, #%00000010
+.db #$10, #$12
+.db #%00000010, #%00000010
+.db #$11, #$13
+.db #%00000010, #%00000010
+
+;; Animation = moveLeft
+Object0_1:
+.db #$20, #$22
+.db #%00000010, #%00000010
+.db #$21, #$23
+.db #%00000010, #%00000010
+.db #$30, #$32
+.db #%00000010, #%00000010
+.db #$31, #$33
+.db #%00000010, #%00000010
+
+;; Animation = moveRight
+Object0_2:
+.db #$21, #$23
+.db #%01000010, #%01000010
+.db #$20, #$22
+.db #%01000010, #%01000010
+.db #$31, #$33
+.db #%01000010, #%01000010
+.db #$30, #$32
+.db #%01000010, #%01000010
+
+;; Animation = moveUp
+Object0_3:
+.db #$10, #$12
+.db #%10000010, #%10000010
+.db #$11, #$13
+.db #%10000010, #%10000010
+.db #$00, #$02
+.db #%10000010, #%10000010
+.db #$01, #$03
+.db #%10000010, #%10000010
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 1 Monster hauntedArmour
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = hauntedArmour
+;; Size = 2 by2
+;; Animation = DefaultAnimation
+Object1_0:
+.db #$00
+.db #%00000010
+.db #$01
+.db #%00000010
+.db #$10
+.db #%00000010
+.db #$11
+.db #%00000010
 
 

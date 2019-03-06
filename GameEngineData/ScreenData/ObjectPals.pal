@@ -3,9 +3,9 @@ objectPal_0:
 objectPal_1:
 .db #$0f, #$01, #$11, #$10
 objectPal_2:
-.db #$0f, #$01, #$05, #$30
+.db #$0f, #$07, #$16, #$06
 objectPal_3:
-.db #$0f, #$01, #$05, #$30
+.db #$0f, #$00, #$10, #$16
 objectPal_4:
 .db #$0f, #$01, #$05, #$30
 objectPal_5:

@@ -83,9 +83,9 @@ GameItem2_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 3 GameItem: Projectile
+;;;; 3 GameItem: crossProj
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Projectile
+;; Monster = crossProj
 ;; Animations = 1
 GameItem3_Lo:
 ;; AnimationType = Default
@@ -123,9 +123,9 @@ GameItem4_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 5 GameItem: Charge Pickup
+;;;; 5 GameItem: crossPickup
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Charge Pickup
+;; Monster = crossPickup
 ;; Animations = 1
 GameItem5_Lo:
 ;; AnimationType = Default
@@ -342,12 +342,46 @@ GameItem15_Hi:
 	.db >GameItem15_0, >GameItem15_0
 
 
-;;;;;;;;; Null Monster ;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 0 Monster spider
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = spider
+;; Animations = 1
 Object0_Lo:
+;; AnimationType = move
+	.db <Object0_0, <Object0_0
+	.db <Object0_2, <Object0_0
+	.db <Object0_3, <Object0_0
+	.db <Object0_1, <Object0_0
+
 Object0_Hi:
-;;;;;;;;; Null Monster ;;;;;;;;
+;; AnimationType = move
+	.db >Object0_0, >Object0_0
+	.db >Object0_2, >Object0_0
+	.db >Object0_3, >Object0_0
+	.db >Object0_1, >Object0_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 1 Monster hauntedArmour
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = hauntedArmour
+;; Animations = 1
 Object1_Lo:
+;; AnimationType = Default
+	.db <Object1_0, <Object1_0
+	.db <Object1_0, <Object1_0
+	.db <Object1_0, <Object1_0
+	.db <Object1_0, <Object1_0
+
 Object1_Hi:
+;; AnimationType = Default
+	.db >Object1_0, >Object1_0
+	.db >Object1_0, >Object1_0
+	.db >Object1_0, >Object1_0
+	.db >Object1_0, >Object1_0
+
+
 ;;;;;;;;; Null Monster ;;;;;;;;
 Object2_Lo:
 Object2_Hi:
