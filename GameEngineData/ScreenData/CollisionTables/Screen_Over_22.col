@@ -1,5 +1,6 @@
-;; Collision data export. Tuesday, January 29, 2019 8:32:07 PM
-;; GraphicBankID = 0x01
+;; *************** NULL SCREEN ***************
+;; Collision data export. Tuesday, March 5, 2019 9:10:08 PM
+;; GraphicBankID = 0x00
 ;; PaletteID = 0x00
 
 ;; Collision:
@@ -23,7 +24,7 @@ Screen_Over_22_info:
 ;; Byte 1: ScreenType 
 	.db #$00
 ;; Byte 2: Bank info screen bank(4bits)/graphic bank(2 bits)/00(2bits) 
-	.db #$14
+	.db #$10
 ;; Byte 3: ScreenPaletteId
 	.db #$00
 ;; Byte 4: MainTileId(4) / ScreenTileID(4)
