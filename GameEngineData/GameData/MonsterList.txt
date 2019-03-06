@@ -1,9 +1,9 @@
 ;; *************** MonsterList.txt ***************
-;; Monster list export. Wednesday, March 6, 2019 4:13:43 AM
+;; Monster list export. Wednesday, March 6, 2019 12:49:31 PM
 
 ;;;; 0	GameItem: Player ID=0
 ;;;; 1	GameItem: Melee ID=1
-;;;; 2	GameItem: Projectile Source ID=2
+;;;; 2	GameItem: crossProjSrc ID=2
 ;;;; 3	GameItem: crossProj ID=3
 ;;;; 4	GameItem: Health Pickup ID=4
 ;;;; 5	GameItem: crossPickup ID=5

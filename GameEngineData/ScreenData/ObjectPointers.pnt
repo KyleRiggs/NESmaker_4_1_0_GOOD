@@ -63,9 +63,9 @@ GameItem1_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 2 GameItem: Projectile Source
+;;;; 2 GameItem: crossProjSrc
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Projectile Source
+;; Monster = crossProjSrc
 ;; Animations = 1
 GameItem2_Lo:
 ;; AnimationType = Default

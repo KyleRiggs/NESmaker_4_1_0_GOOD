@@ -1,5 +1,5 @@
 ;; *************** HUD_BOX_CONSTANTS.dat ***************
-;; HUD Constants export. Wednesday, March 6, 2019 4:13:43 AM
+;; HUD Constants export. Wednesday, March 6, 2019 12:49:31 PM
 BOUNDS_LEFT  = $00
 BOUNDS_RIGHT  = $ff
 BOUNDS_TOP     = $00
@@ -7,8 +7,8 @@ BOUNDS_BOTTOM    = $f0
 
 BOX_0_ORIGIN_X  = $00
 BOX_0_ORIGIN_Y  = $00
-BOX_0_WIDTH     = $00
-BOX_0_HEIGHT    = $00
+BOX_0_WIDTH     = $10
+BOX_0_HEIGHT    = $02
 
 BOX_1_ORIGIN_X  = $03
 BOX_1_ORIGIN_Y  = $01
@@ -25,8 +25,8 @@ BOX_3_ORIGIN_Y  = $00
 BOX_3_WIDTH     = $00
 BOX_3_HEIGHT    = $00
 
-BOX_0_ATT_WIDTH = $00
-BOX_0_ATT_HEIGHT = $00
+BOX_0_ATT_WIDTH = $08
+BOX_0_ATT_HEIGHT = $01
 
 BOX_1_ATT_WIDTH = $05
 BOX_1_ATT_HEIGHT = $03

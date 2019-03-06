@@ -51,7 +51,7 @@ notAlreadyShooting
      STA temp1
 
  
-    CreateObject temp, temp1, #OBJ_PLAYER_PROJECTILE, #$00, currentNametable
+     CreateObject temp, temp1, #$03, #$00, currentNametable
   
     ;;;; x is now the newly created object's x.
     LDA Object_movement,x

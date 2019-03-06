@@ -1,14 +1,14 @@
 ;; Monster: Player
 GameItem0_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$16, #$24, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$18, #$25, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Melee
 GameItem1_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Projectile Source
+;; Monster: crossProjSrc
 GameItem2_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$05, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: crossProj
 GameItem3_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
