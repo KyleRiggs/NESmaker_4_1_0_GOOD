@@ -1,4 +1,4 @@
-;; Collision data export. Tuesday, March 5, 2019 9:10:08 PM
+;; Collision data export. Wednesday, March 6, 2019 12:56:46 AM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x00
 
@@ -31,7 +31,7 @@ Screen_Over_02_info:
 ;; Byte 5: ScreenByte00 (Monster respawn/NULL/BossRoom/5-NULLs)
 	.db #%00000000
 ;; Byte 6: ScreenByte01 (Hud/Paths/DayNight/Dark/000/screenSpeed
-	.db #%10000000
+	.db #%00000000
 ;; Byte 7: Path Tile mask
 	.db #$f0
 ;; Byte 8: What screen does a portal tile on this screen warp to? 
